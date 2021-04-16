@@ -1,0 +1,12 @@
+.toggle-button{
+	-fx-background-color: dodgerblue;
+	-fx-background-radius: 0 0 0 0;
+}
+
+.toggle-button:hover{
+	-fx-background-color: #0F84F5;
+}
+
+.toggle-button:selected{
+	-fx-background-color: #0077EA;
+}

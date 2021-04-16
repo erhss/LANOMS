@@ -1,0 +1,41 @@
+.text-field {
+	-fx-background-color: rgba(5, 88, 161, 0.5);
+	-fx-border-color: #00bbd5;
+	-fx-border-radius: 5 5 5 5;
+	-fx-background-radius: 5 5 5 5;
+	-fx-text-fill: white;
+}
+
+.background {
+	-fx-background-color: radial-gradient(radius 600px , #0558a1, #00bbd5);
+}
+
+.subtitle {
+	-fx-text-fill: white;
+}
+
+.subtitle:error {
+	-fx-text-fill: red;
+	-fx-font-weight: bold;
+}
+
+.title {
+	-fx-font-size: 18;
+	-fx-text-fill: white;
+}
+
+.button {
+	-fx-font-size: 14;
+	-fx-font-weight: bold;
+	-fx-text-fill: #00bbd5;
+	-fx-background-color: white;
+	-fx-background-radius: 5 5 5 5;
+}
+
+.button:hover {
+	-fx-background-color: #BFEEF5;
+}
+
+.button:pressed {
+	-fx-background-color: #80DDEA;
+}

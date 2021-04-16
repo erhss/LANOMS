@@ -1,0 +1,16 @@
+.toggle-button{
+	-fx-background-color: whitesmoke;
+	-fx-background-radius: 5 5 5 5;
+}
+
+.toggle-button:unread {
+	-fx-font-weight: bold;
+}
+
+.toggle-button:hover{
+	-fx-background-color: #E9E9E9;
+}
+
+.toggle-button:selected{
+	-fx-background-color: #DCDCDC;
+}
